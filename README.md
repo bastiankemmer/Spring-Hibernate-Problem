@@ -8,9 +8,13 @@ This is, because I have to process all DB-Items and it gets slower the more requ
 Like that:
 
 01 Request(s)  |  04 seconds
+
 05 Request(s)  |  06 seconds
+
 10 Request(s)  |  12 seconds
+
 20 Request(s)  |  24 seconds
+
 40 Request(s)  |  48 seconds
 
 It seems like the connection doesn't get closed until the Thread gets closed. 
