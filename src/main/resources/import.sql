@@ -1,0 +1,1 @@
+INSERT INTO `user_model` (`id`, `first_name`, `last_name`) VALUES ('A8HBA7-)QWQn-ZAAas', 'Jon', 'Doe');
